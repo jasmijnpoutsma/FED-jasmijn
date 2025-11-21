@@ -75,7 +75,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Tijdens de les zijn we de toegankelijkheid testen van de gekozen site die we gaan na maken, dit hebben we gedaan door middel van de screenreader/voice over te gebruiken. Eigenlijk merkte ik al snel dat de chanel site niet veel text heeft en eigenlijk voor veel afbeeldingen bevat. ik had hiervoor zelf nog nooit een screenreader gebruikt op deze manier en was benieuwd of deze afbeeldingen dan ook duidelijk zouden worden aan de gebruik. 
 
   Lijst met je bevindingen die in de test naar voren kwamen:
-  - weinig text op de website
+  - tijdens het gebruiken van de voiceover merkte ik gelijk dat sommige worden alleen letter voor letter werden uitgesproken dit zorgde bij mij vooral voor verwarring. ik snapte niet zo goed waar dit vandaan kwam en of ik perongeluk iets had ingesteld, maar na even zoeken bleek dat niet. later in de test merkte ik dat dit steeds vaker voor kwam en ik bijvoorbeeld de woorden ook niet zo goed kon selecteren, hierbij werdt er vaak dan ook maar 1 letter geselecteerd.
+   <img src="readme-images/screanreader3.jpg" width="375px" alt="afbeelding waar wordt laten zien dat er maar 1 letter van een word is geselecteerd bij het gebruik van de voiceover functie.">
+  - het tweede waar ik tegen aan liep is dat op mijn gekozen website veel plaatjes geen alt="" hadden. van de decoratieve plaatjes is dit natuurlijk niet nodig, maar dit vond ik ook terug bij plaatjes die wel belangrijk zijn. Ik heb gekozen voor een schoenen overzicht pagina en dan is het natuurlijk wek belangrijk dat de gebruiker/klant weet welke of wat voor soort schoen hij/zij aan klikt. onder de foto's staat wel de naam van de schoen maar dit zegt vaak niet heel veel over hoe het product er uit ziet, zeker ook omdat ze best een aantal schoenen hebben wat op elkaar lijkt.
+    <img src="readme-images/screenreader1.jpg" width="375px" alt="afbeelding waar geen text te vertellen is over twee grote afbeelding die niet voor decoratie dienen.">
+  - ook viel het mij op dat sommige namen best wel op elkaar lijken, maar onder een ander kopje vallen. dit wordt dan niet duidelijk gemaakt aan de gebruiker/klant, zo heb je bijvoorbeeld witte sandelen met hak die vallen onder het kopje "spel van bandjes" en witte sandalen met hak die vallen onder het kopje " zijden detail". persoonlijk vond ik dit best verwarrend aangezien er wel voorgelezen wordt dat het onder "kop 2" valt bijvoorbeeld maar niet welke dit dan is.
+    <img src="readme-images/screanreadersandaal1.jpg" width="375px" alt="afbeelding van witten sandalen1">
+    <img src="readme-images/screenreadersandaal2.jpg" width="375px" alt="afbeelding van witten sandalen2">
+  - ook heb ik boven aan in de navigatie balk waarin je kan kiezen naar welke producten je wilt kijken een paar gehad dat de voice over aangaf dat er een knop was geselecteerd in de wit regel boven de namen van de pagina's, terwijl hier helemaal geen knop te zien of te gebruiken was.
+    <img src="readme-images/screanreader2.jpg" width="375px" alt="afbeelding van een knop die wordt voor gelezen, maat niet zichtbaar en klikbaar is. ">
 </details>
 
 
@@ -114,13 +122,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  het gaat op dit moment iets beter dan verwacht, ik ben al een stukje opweg met mijn eerste pagina en ik heb het gevoel dat ik beter snap wat ik aan het doen ben dan vorig jaar. wel moet ik tijdens het schrijven van mijn css af en toe een aantal dingen proberen voor doel lukt. ook loop ik tijdens het schrijven steeds nieuwe vragen op. ik merk dat flexbox me wat beter afgaat dan grid tot nu toe. ik weet beter wanneer ik dat moet gebruiken en hoe, daarom durf ik nog niet echt te beginnen aan de grid dingen. ik heb het een paar keer geprobeerd maar ik haalde mijn pagina alleen maar meer door elkaar. het is denk ik verstandig als ik daarvan nog even de powerpoints en oefeningen van terug ga kijken, misschien dat het dan beter verloopt.
+
+jasmijn 
+- Bij grid garden had je vaak dat het een getal te hoog bijvoorbeeld 6 was en dan kwam het in het 5e vakje, is hier een rede voor en is dit altijd? 
+- Wat zijn de onderste elementen in mijn footer?
+- Mijn navigatie balk komt bij een hover naar boven kan ik dat later nog toevoegen? 
+- Hoe zet ik mijn h2 boven bijvoorbeeld mijn h1? 
+- Hoe verschuif ik mijn text over mijn plaatjes heen? Moet dat met grid en hoe begin ik daar aan? 
+- Mag ik bij testen wel px gebruiken of niet? 
+- Willen jullie checken of mijn css tot nu toe goed gaat? 
+- Als ik Child 1 neerzet bij h2 pakt hij mijn tweede en derde h2? 
+- hoe kan ik het hamburger menu los maken? dat hij niet overal naar toe meebeweegt?
+
+na'imah 
+- HTML en CSS checken.
+- Uitleg over de ruimte tussen elementen.
+- Uitleg over wanneer grid of flexbox
+
+daniel 
+- Hoe voorkom ik dat elementen overlappen wanneer het scherm te klein wordt? 
+- Hoe voorkom ik dat mijn HTML te veel geneste elementen bevat
+- Hoe beslis ik wanneer ik een nested grid moet gebruiken in plaats van een grid binnen flex?
+- Wat is position: relative
+- oe zorg ik ervoor dat een hamburger menu verandert naar een navigatie balk
+- Hoe verschuif ik mijn text over mijn plaatjes heen? Moet dat met grid?
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Jasmijn        | Na'imah            | Daniel       | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
