@@ -162,10 +162,9 @@ daniel
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - ik heb geleerd hoe ik een grid op zet en hoe ik dit moet gebruiken, ook heb ik geleerd het grid aan te passen als bijvoorbeeld het scherm groter wordt.
+  - ik heb geleerd hoe ik gemakkelijk mijn fonts kan downloaden en op de juiste manier kan toe passen in mijn code. 
+  - ik heb nog een keer kunnen zien hoe een carroussel gemaakt kan worden met css. 
 
 </details>
 
@@ -179,7 +178,18 @@ daniel
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ deze week ben ik best wel ver gekomen met het stijlen van mijn eerste pagina, ik heb mezelf weer positief verrast. mijn hele telefoon scherm is af, ik ben nu bezig met het helemaal responsive maken. hier ben ik halverwege mee, dit vind ik toch iets lastiger dan gedacht. met grid merk ik dat ik niet heel goed weet waar in ik de colums en rows aan moet maken en merk ik dat ik vaak denk dat ik het goed doe maar het uiteindelijk niet zie werken. 
+
+jasmijn
+- Hoe kan ik het best mijn text positioneren over afbeeldingen heen?
+- Hoe kan ik een afbeelding/video croppen in lengte ?
+- Hoe krijg ik een goede grid in mijn footer?
+- Mijn header verdwijnt halverwege mijn pagina hoe kan ik dit het beste doen? 
+
+daniel 
+
+
+na'imah
 
 
   ### Agenda voor meeting
