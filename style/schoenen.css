@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*********************/
+/*      FONTS        */
+/*********************/
+
+@font-face {
+    font-family: "abchanel";
+    src: url(../fonts/ABChanel2022-Regular.woff2);
+    /* normaal */
+}
+
+@font-face {
+    font-family: "abchanel";
+    src: url(../fonts/ABChanel2022-Bold.woff2);
+    /* dik */
+}
+
+@font-face {
+    font-family: "abchanel";
+    src: url(../fonts/ABChanel2022-SemiBold.woff2);
+    /* semi dik */
+}
+
+@font-face {
+    font-family: "abchanel";
+    src: url(../fonts/4557ee3c5c7e229667c02c3e802771f4feae8659-l.woff2);
+}
+
+@font-face {
+    font-family: "abchanel";
+    src: url(../fonts/64b14ed9188172fd562480b882a998c1cb8e8eb2-l.woff2);
+    /* dun */
+}
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --backgroumd-page: white;
+    --background-color-footer: #000000;
+    --color-header-home: white;
+    --background-header-hover: white;
+    --header-items-hover-home: black;
+    --color-producten-home: black;
+    --color-text-kopjes-home: white;
+    --color-footer-svg-home: white;
+    --footer-nav: #9b9b9b;
+    --button-favo: black;
+    --h3-footer: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --backgroumd-page: black;
+        --background-color-footer: white;
+        --color-header-home: white;
+        --background-header-hover: black;
+        --header-items-hover-home: white;
+        --color-producten-home: white;
+        --color-footer-svg-home: black;
+        --footer-nav: #9b9b9b;
+        --button-favo: white;
+        --h3-footer: black;
+    }
+}
+
+
+/* header */
+
+
+header li svg{
+    path {
+        fill: var(--color-header-home);
+
+    }
+}
+
+header:hover svg {
+    path {
+        fill: var(--header-items-hover-home);
+    }
+}
+
+
+header:hover {
+    background-color: var(--background-header-hover);
+    padding: .5em;
+    border-top: #000000 .4em solid;
+}
+
+
+
+/* algemeen */
+
+h2 {
+    font-family: "abchanel"; 
+    color: var(--color-text-kopjes-home);
+}
+
+section > img {
+    width: 100%;
+}
+
+picture {
+    width: 100%;
+}
+
+section video {
+    width: 100%;
+}
+
+main {
+    background-color: var(--backgroumd-page);
+}
+
+article svg {
+    path {
+        fill: var(--button-favo);
+    }
+}
+
+
+
+
+/*  SECTION 1 - schoenen */
+
+section:nth-of-type(1) {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 3em;
+
+    div, p, picture {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    div {
+        z-index: 1;
+    }
+
+    p {
+        align-self: end;
+        padding: 2rem;
+        z-index: 1;
+    }
+
+} 
+
+
+h1 {
+    text-align: center;
+    font-family: "abchanel";
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: var(--color-text-kopjes-home);
+    
+}
+
+section:nth-of-type(1) h2 {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: .72px; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section  p { 
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "abchanel";
+    font-size: 16px;
+    letter-spacing: .72px;
+    line-height: 18px;
+    color: var(--color-text-kopjes-home);
+}
+
+section:nth-of-type(1) img {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+
+
+
+/*  SECTION 2 - delicate muiltjes */
+
+section:nth-of-type(2) {
+    display: grid;
+    align-items: center;
+
+    h2, video {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    h2 {
+        text-align: center;
+        z-index: 1;
+    }
+
+}
+
+
+
+/*  SECTION 3 - spel van bandjes */
+
+section:nth-of-type(3) h2 {
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+section:nth-of-type(3) {
+    display: grid;
+    align-items: center;
+
+    h2, video {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    h2 {
+        text-align: center;
+        z-index: 1;
+    }
+
+}
+
+section:nth-of-type(3) ul {
+    justify-self: stretch;
+}
+
+
+/*  SECTION 4 - zijden detail */
+
+section:nth-of-type(4) h2 {
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+section:nth-of-type(4) {
+    display: grid;
+    align-items: center;
+
+
+    h2, video {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    h2 {
+        text-align: center;
+        z-index: 1;
+    }
+
+}
+
+section:nth-of-type(4) ul {
+    justify-self: stretch;
+}
+
+
+
+/* producten */
+
+main section h2 {
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+main section ul { 
+    margin: 1em;
+    padding: 0;
+
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 1fr;
+
+}
+
+@media (width > 24em) {
+    main section ul {
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+}
+
+@media (width > 37em) {
+    main section ul {
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+   
+}
+
+main article {
+    display: grid;
+    row-gap: 1em;
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: max-content max-content; 
+    margin-bottom: 2.5em;
+    column-gap: 1em;
+}
+
+main article h3 {
+    font-family: "abchanel";
+    color: var(--color-producten-home);
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: .72px;
+    text-transform: uppercase;
+}
+
+main article img {
+    width: 100%;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main article button {
+    border: none;
+    background: none;
+    margin-top: -.7rem;
+    
+}
