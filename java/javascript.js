@@ -32,21 +32,25 @@ deLeatherKnop.onclick = veranderCarrouselLeather;
  deDiamantjesKnop.onclick = veranderCarrouselDiamant;
  
  
- function veranderCarrouselLeather() {
+  const DiamantSection = document.querySelector("section:nth-of-type(3) ul:nth-of-type(1)");
 
-    const leatherSection = document.querySelector("section:nth-of-type(3) ul:nth-of-type(2)");
+   const leatherSection = document.querySelector("section:nth-of-type(3) ul:nth-of-type(2)");
  
-    leatherSection.classList.add("hidden");
+function veranderCarrouselLeather() {
+
+   leatherSection.classList.add("hidden");
+
+   DiamantSection.classList.remove("hidden")
+
+ }
  
-  }
-  
- function veranderCarrouselDiamant() {
+function veranderCarrouselDiamant() {
  
-    const DiamantSection = document.querySelector("section:nth-of-type(3) ul:nth-of-type(1)");
+  DiamantSection.classList.add("hidden");
+
+   leatherSection.classList.remove("hidden")
  
-    DiamantSection.classList.add("hidden");
- 
-  }
+}
 
 
 
