@@ -95,27 +95,39 @@ header {
 header ul {
     list-style: none;
 
-    display: grid;
-    grid-template-columns: max-content max-content 3fr max-content max-content;
-    justify-items: center;
-    gap: 0.6em;
 }
 
 header svg {
     width: 1em;
 }
 
-header li:nth-of-type(3) svg {
-    width: 6em;
+header nav {
+    display: grid;
+    grid-template-columns: max-content max-content 3fr max-content max-content;
+    justify-items: center;
+    gap: 0.6em;
 }
 
+/* header ul li:nth-of-type(1) {
+    grid-column: 2;
+}
+
+header ul li:nth-of-type(2) {
+    grid-column: 3;
+} */
+
+/* header li:nth-of-type(3) svg {
+    width: 6em;
+} */
+
 header button {
+    /* grid-column: 1; */
     border: none;
     background: none;
-    padding-top: .15em;
+    /* padding-top: .15em; */
     display: flex;
     align-items: center;
-    gap: .5em;
+    /* gap: .5em; */
 
     span {
         position: absolute;
@@ -136,15 +148,15 @@ header button {
         grid-template-columns: max-content 2.3fr max-content 2fr max-content max-content max-content;
     }
 
-    header li:nth-of-type(1) {
+    header nav button  {
         grid-column: 1;
     }
 
-    header li:nth-of-type(2) {
+    header li:nth-of-type(1) {
         grid-column: 5;
     }
 
-    header li:nth-of-type(3) {
+    header li:nth-of-type(2) {
         grid-column: 3;
         grid-row: 1;
     }
