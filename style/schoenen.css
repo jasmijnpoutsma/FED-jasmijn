@@ -81,17 +81,24 @@ header li svg{
     }
 }
 
-header:hover svg {
-    path {
-        fill: var(--header-items-hover-home);
-    }
-}
-
-
 header:hover {
     background-color: var(--background-header-hover);
-    padding: .5em;
     border-top: #000000 .4em solid;
+
+    @media (width > 37em) {
+        padding: 1em 3.5em;
+    }
+    
+    svg {
+        path {
+            fill: var(--header-items-hover-home);
+        }
+    }
+
+    button span {
+        color: var(--header-items-hover-home);
+    }
+
 }
 
 
@@ -113,10 +120,6 @@ picture {
 
 section video {
     width: 100%;
-}
-
-main {
-    background-color: var(--backgroumd-page);
 }
 
 article svg {
@@ -153,7 +156,6 @@ section:nth-of-type(1) {
 
 } 
 
-
 h1 {
     text-align: center;
     font-family: "abchanel";
@@ -165,8 +167,8 @@ h1 {
 }
 
 section:nth-of-type(1) h2 {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 1em;
+    line-height: 1.125em;
     letter-spacing: .72px; 
     text-align: center;
     text-transform: uppercase;
@@ -176,9 +178,9 @@ section  p {
     text-transform: uppercase;
     text-align: center;
     font-family: "abchanel";
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: .72px;
-    line-height: 18px;
+    line-height: 1.125em;
     color: var(--color-text-kopjes-home);
 }
 
@@ -214,13 +216,6 @@ section:nth-of-type(2) {
 
 /*  SECTION 3 - spel van bandjes */
 
-section:nth-of-type(3) h2 {
-    font-size: 25px;
-    line-height: 31px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-}
-
 section:nth-of-type(3) {
     display: grid;
     align-items: center;
@@ -237,19 +232,20 @@ section:nth-of-type(3) {
 
 }
 
+section:nth-of-type(3) h2 {
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
 section:nth-of-type(3) ul {
     justify-self: stretch;
 }
 
 
 /*  SECTION 4 - zijden detail */
-
-section:nth-of-type(4) h2 {
-    font-size: 25px;
-    line-height: 31px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-}
 
 section:nth-of-type(4) {
     display: grid;
@@ -267,6 +263,14 @@ section:nth-of-type(4) {
     }
 
 }
+
+section:nth-of-type(4) h2 {
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
 
 section:nth-of-type(4) ul {
     justify-self: stretch;
@@ -320,8 +324,8 @@ main article {
 main article h3 {
     font-family: "abchanel";
     color: var(--color-producten-home);
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 1em;
+    line-height: 1.125em;
     letter-spacing: .72px;
     text-transform: uppercase;
 }

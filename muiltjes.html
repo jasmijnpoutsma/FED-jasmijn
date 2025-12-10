@@ -12,14 +12,33 @@
     <header>
         <nav>
             <ul>
-                <li><button>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="cc-icon cc-icon-button__icon cc-icon-burger"><path fill="currentColor" d="M22 6.5H2V5h20zm0 6.25H2v-1.5h20zM2 19h20v-1.5H2z"></path></svg>
-                </button></li>
+                <li
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="cc-icon cc-icon-button__icon cc-icon-burger"><path fill="currentColor" d="M22 6.5H2V5h20zm0 6.25H2v-1.5h20zM2 19h20v-1.5H2z"></path></svg>
+                        <span>menu</span>
+                    </button>
+
+                    <!-- <nav>
+                         de sluit button
+                         de button is ook niet relevant voor screenreaders 
+                        <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="" />Sluit</button>
+                        
+                        <ul>
+                          <li><a class="active"><img src="https://assets.codepen.io/274456/ft-icon-castle.svg" alt="home"> Home</a></li>
+                          <li><a href="#"><img src="https://assets.codepen.io/274456/ft-icon-knight.svg" alt="knight"> Knight</a></li>
+                          <li><a href="#"><img src="https://assets.codepen.io/274456/ft-icon-ogre.svg" alt="ogre"> Ogre</a></li>
+                          <li><a href="#"><img src="https://assets.codepen.io/274456/ft-icon-queen.svg" alt="queen"> Queen</a></li>
+                          <li><a href="#"><img src="https://assets.codepen.io/274456/ft-icon-witch.svg" alt="witch"> Witch</a></li>
+                          <li><a href="#"><img src="https://assets.codepen.io/274456/ft-icon-wizard.svg" alt="wizard"> Wizard</a></li>
+                        </ul>
+                      </nav> -->
+                </li>
                 <li><a href=""></a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="cc-icon cc-icon-button__icon cc-icon-search"><path fill="currentColor" fill-rule="evenodd" d="M15.703 16.61a8 8 0 1 1 .948-1.163l5.331 4.479-.964 1.148zM16.5 11a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" clip-rule="evenodd"></path></svg></li>
                 <li><a href=""></a><svg aria-hidden="true" class="logo" data-test="imgLogo" focusable="false" height="28" width="175" viewBox="0 0 175 28">
                     <g fill="#000" fill-rule="evenodd">
                        <path d="M20.655 17.726l4.565 2.615c-2.282 4.197-6.737 6.922-11.781 6.922C6.075 27.263 0 21.629 0 13.713S6.075.163 13.439.163c5.044 0 9.5 2.725 11.781 6.923L20.655 9.7c-1.326-2.725-4.013-4.381-7.216-4.381-4.603 0-8.1 3.423-8.1 8.394s3.497 8.395 8.1 8.395c3.203 0 5.89-1.657 7.216-4.382M49.705 26.6V15.554H36.818V26.6h-5.154V.826h5.154V10.4h12.887V.826h5.155V26.6h-5.155M79.603 15.922L74.926 5.061 70.25 15.922h9.353zM89.838 26.6h-5.634l-2.54-5.892H68.188l-2.54 5.892h-5.634L71.428.826h6.996L89.838 26.6zM113.586 26.6L99.778 6.313V26.6h-4.786V.826h6.812l11.598 17.084V.826h4.787V26.6h-4.603M128.129 26.6V.826h18.41v4.787h-13.624v5.523h11.782v4.786h-11.782v5.892h14.36V26.6h-19.146M155.56 26.6V.826h5.154v20.62h13.622V26.6H155.56"></path>
                     </g></svg></li>
+                    
                 <li><a href=""></a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="cc-icon cc-icon-account"><path fill="currentColor" fill-rule="evenodd" d="M17 7A5 5 0 1 1 7 7a5 5 0 0 1 10 0m-1.5 0a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0" clip-rule="evenodd"></path><path fill="currentColor" d="M4.814 20.93a7.575 7.575 0 0 1 14.372 0l.353 1.057 1.423-.474-.353-1.058a9.075 9.075 0 0 0-17.218 0l-.352 1.058 1.423.474.352-1.058Z"></path></svg></li>
                 <li><a href=""></a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="cc-icon cc-icon-button__icon cc-icon-cart"><path fill="currentColor" fill-rule="evenodd" d="M12 2.25A3.75 3.75 0 0 0 8.25 6v1H3v15h18V7h-5.25V6A3.75 3.75 0 0 0 12 2.25m2.25 6.25V12h1.5V8.5h3.75v12h-15v-12h3.75V12h1.5V8.5zm0-1.5V6a2.25 2.25 0 0 0-4.5 0v1z" clip-rule="evenodd"></path></svg></li>
             </ul>
@@ -44,15 +63,19 @@
 
         <section>
             <h2>Varianten</h2>
-            <h3>Leather</h3>
-            <h3>Other materials</h3>
-            <article>
-                <img src="images/rozemuiltjescarroussel.jpg" alt="">
-                <img src="images/zwartemuiltjes.jpg" alt="">
-                <img src="images/oranjemuiltjes.jpg" alt="">
-                <img src="images/gelemuiltjes.jpg" alt="">
-                <img src="images/zwarteglittermuiltjes.jpg" alt="">
-            </article>
+
+            <ul>
+                <li><button>Leather</button></li>
+                <li><button>Other materials</button></li>
+            </ul>
+
+            <ul>
+                <li><img src="images/rozemuiltjescarroussel.jpg" alt=""></li>
+                <li><img src="images/zwartemuiltjes.jpg" alt=""></li>
+                <li><img src="images/oranjemuiltjes.jpg" alt=""></li>
+                <li><img src="images/gelemuiltjes.jpg" alt=""></li>
+                <li><img src="images/zwarteglittermuiltjes.jpg" alt=""></li>
+            </ul>
         </section>
 
         <section>
@@ -70,10 +93,14 @@
     </main>
 
     <footer>
-        <svg aria-hidden="true" class="logo" data-test="imgLogo" focusable="false" height="28" width="175" viewBox="0 0 175 28">
+        <section>
+            <svg aria-hidden="true" class="logo" data-test="imgLogo" focusable="false" height="28" width="175" viewBox="0 0 175 28">
             <g fill="#000" fill-rule="evenodd">
             <path d="M20.655 17.726l4.565 2.615c-2.282 4.197-6.737 6.922-11.781 6.922C6.075 27.263 0 21.629 0 13.713S6.075.163 13.439.163c5.044 0 9.5 2.725 11.781 6.923L20.655 9.7c-1.326-2.725-4.013-4.381-7.216-4.381-4.603 0-8.1 3.423-8.1 8.394s3.497 8.395 8.1 8.395c3.203 0 5.89-1.657 7.216-4.382M49.705 26.6V15.554H36.818V26.6h-5.154V.826h5.154V10.4h12.887V.826h5.155V26.6h-5.155M79.603 15.922L74.926 5.061 70.25 15.922h9.353zM89.838 26.6h-5.634l-2.54-5.892H68.188l-2.54 5.892h-5.634L71.428.826h6.996L89.838 26.6zM113.586 26.6L99.778 6.313V26.6h-4.786V.826h6.812l11.598 17.084V.826h4.787V26.6h-4.603M128.129 26.6V.826h18.41v4.787h-13.624v5.523h11.782v4.786h-11.782v5.892h14.36V26.6h-19.146M155.56 26.6V.826h5.154v20.62h13.622V26.6H155.56"></path>
             </g></svg> 
+        </section>
+
+        <section>
            
             <nav>
                 <h3>Ontdek chanel.com</h3>
@@ -122,7 +149,8 @@
                     <li><a href="#">Financiële resultaten</a></li>
                     <li><a href="#">Update over aan duurzaamheid gerelateerde obligaties</a></li>
                 </ul>
-            </nav>
+            </nav>  
+        </section>
 
             <p>Hoog contrast inschakelen</p>
 

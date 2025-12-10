@@ -75,6 +75,10 @@ body {
     margin: 0;
 }
 
+main {
+    background-color: var(--backgroumd-page);
+}
+
 
 
 /* header */
@@ -109,9 +113,24 @@ header button {
     border: none;
     background: none;
     padding-top: .15em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+
+    span {
+        position: absolute;
+        left: -999em;
+
+        @media (width > 37em) {
+            position: static;    /* snap ik niet helemaal */
+            color: var(--color-header-home);
+            font-family: "abchanel";
+        }
+    }
 }
 
-@media (width > 40em) {
+
+@media (width > 37em) {
    
     header ul {
         grid-template-columns: max-content 2.3fr max-content 2fr max-content max-content max-content;
@@ -134,9 +153,7 @@ header button {
         padding: 1em 3.5em;
     }
 
-    header:hover {
-        padding: 1em 3.5em;
-    }
+
 }
 
 /* header */
@@ -154,7 +171,7 @@ footer h3 {
     margin-left: 1.5em;
 
     font-family: "abchanel";
-    font-size:  16px;
+    font-size:  1em;
     line-height: 1.125rem;
     letter-spacing: 0;
     color: var(--h3-footer);
@@ -179,7 +196,7 @@ footer li {
 footer a {
     margin-left: -1em;
     text-decoration: none;
-    font-size:  16px;
+    font-size:  1em;
     letter-spacing: 0;
     color: var(--footer-nav);
 
@@ -193,7 +210,7 @@ footer a:hover {
 
 footer p {
     font-family: "helvetica";
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1rem;
     letter-spacing: 0rem;
     margin-left: 1.7em;
@@ -212,7 +229,7 @@ footer p:nth-of-type(1) {
 footer details {
     color: var(--footer-nav);
     font-family: "helvetica";
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1rem;
     letter-spacing: 0rem;
     margin-left: 1.7em;
