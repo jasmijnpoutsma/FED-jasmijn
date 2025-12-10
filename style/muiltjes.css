@@ -315,7 +315,16 @@ section:nth-of-type(3) ul:nth-of-type(1) {
 
 /* → ← */
 
-section:nth-of-type(3) ul:nth-of-type(1) {
+section:nth-of-type(3) ul:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    list-style: none;
+    gap: .3em;
+    padding-left: 1em;
+    padding-right: 1em;
     &.hidden {
     
          display: none;
