@@ -24,27 +24,29 @@
 //  }
 
 const deLeatherKnop = document.querySelector("section:nth-of-type(3) div button:nth-of-type(1)");
-const deDiamantjesKnop = document.querySelector("section:nth-of-type(3) div button:nth-of-type(2)");
+
+ const deDiamantjesKnop = document.querySelector("section:nth-of-type(3) div button:nth-of-type(2)");
  
-deLeatherKnop.onclick = veranderCarrouselLeather
-deDiamantjesKnop.onclick = veranderCarrouselDiamant
+deLeatherKnop.onclick = veranderCarrouselLeather;
+
+ deDiamantjesKnop.onclick = veranderCarrouselDiamant;
  
-function veranderCarrouselLeather() {
-
- const leatherSection = document.querySelector("section:nth-of-type(3) ul:nth-of-type(1)");
-
- leatherSection.classList.add("hidden")
-
- }
  
-function veranderCarrouselDiamant() {
+ function veranderCarrouselLeather() {
 
-    const DiamantSection = document.querySelector("section:nth-of-type(3) ul:nth-of-type(2)");
-
- DiamantSection.classList.add("hidden")
-
- }
-
+    const leatherSection = document.querySelector("section:nth-of-type(3) ul:nth-of-type(2)");
+ 
+    leatherSection.classList.add("hidden");
+ 
+  }
+  
+ function veranderCarrouselDiamant() {
+ 
+    const DiamantSection = document.querySelector("section:nth-of-type(3) ul:nth-of-type(1)");
+ 
+    DiamantSection.classList.add("hidden");
+ 
+  }
 
 
 
