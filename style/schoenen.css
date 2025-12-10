@@ -74,7 +74,7 @@
 /* header */
 
 
-header li svg{
+header nav:nth-of-type(1) ul:nth-of-type(1) li svg{
     path {
         fill: var(--color-header-home);
 
@@ -89,7 +89,7 @@ header:hover {
         padding: 1em 3.5em;
     }
     
-    svg {
+    nav:nth-of-type(1) ul:nth-of-type(1) svg {
         path {
             fill: var(--header-items-hover-home);
         }
@@ -174,7 +174,7 @@ section:nth-of-type(1) h2 {
     text-transform: uppercase;
 }
 
-section  p { 
+section:nth-of-type(1) p { 
     text-transform: uppercase;
     text-align: center;
     font-family: "abchanel";

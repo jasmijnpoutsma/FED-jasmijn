@@ -92,7 +92,7 @@ header {
 
 }
 
-header ul {
+header ul:nth-of-type(1) {
     list-style: none;
 
     display: grid;
@@ -105,22 +105,11 @@ header svg {
     width: 1em;
 }
 
-
-
-/* header ul li:nth-of-type(1) {
-    grid-column: 2;
-}
-
-header ul li:nth-of-type(2) {
-    grid-column: 3;
-} */
-
-header li:nth-of-type(3) svg {
+header ul:nth-last-of-type(1) li:nth-of-type(3) svg {
     width: 6em;
 }
 
 header button {
-    /* grid-column: 1; */
     border: none;
     background: none;
     padding-top: .15em;
@@ -143,28 +132,28 @@ header button {
 
 @media (width > 37em) {
    
-    header nav {
+    header nav:nth-of-type(1) {
         grid-template-columns: max-content 2.3fr max-content 2fr max-content max-content max-content;
     }
 
-    header li:nth-of-type(1) {
+    header ul:nth-of-type(1) li:nth-of-type(1) {
         grid-column: 1;
     }
 
-    header li:nth-of-type(2) {
+    header ul:nth-of-type(1) li:nth-of-type(2) {
         grid-column: 4;
     }
 
-    header li:nth-of-type(3) {
+    header ul:nth-of-type(1) li:nth-of-type(3) {
         grid-column: 3;
         grid-row: 1;
     }
 
-    header li:nth-of-type(4) {
+    header ul:nth-of-type(1) li:nth-of-type(4) {
         grid-column: 5;
     }
 
-    header li:nth-of-type(5) {
+    header ul:nth-of-type(1) li:nth-of-type(5) {
         grid-column: 6;
     }
 
@@ -174,6 +163,17 @@ header button {
 
 
 }
+
+
+header nav:nth-of-type(2) {
+    translate: -100% 0;
+    transition: .4s ease;
+}
+
+header nav:nth-of-type(2) ul.toonmenu {
+   translate: 0 0;
+}
+
 
 /* header */
 

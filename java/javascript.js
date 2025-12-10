@@ -1,7 +1,11 @@
-const deDiamantjesKnop = document.querySelector("header button:nth-of-type(2)");
+// carrousel knoppen 
+const deDiamantjesKnop = document.querySelector("section:nth-of-type(3) ul:nth-of-type(1) li:nth-of-type(2) ");
 
-dediamantjesknop.onclick = veranderCarrousel
+deDiamantjesKnop.onclick = veranderCarrousel
 
-function veranderMezelf() {
+function veranderCarrousel() {
     alert("he"); 
 }
+
+// hamburger menu
+const hamburgerMenu = document.querySelector("header nav:nth-of-type(1) ul:nth-of-type(2)");
