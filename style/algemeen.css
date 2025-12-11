@@ -87,12 +87,16 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+
+}
+
+header nav:nth-of-type(1) {
     gap: 1em;
     padding: 1em .8em;
 
 }
 
-header ul:nth-of-type(1) {
+header nav:nth-of-type(1) ul:nth-of-type(1) {
     list-style: none;
 
     display: grid;
@@ -105,7 +109,7 @@ header svg {
     width: 1em;
 }
 
-header ul:nth-last-of-type(1) li:nth-of-type(3) svg {
+header nav:nth-of-type(1) ul:nth-last-of-type(1) li:nth-of-type(3) svg {
     width: 6em;
 }
 
@@ -150,6 +154,7 @@ header button {
 
     header ul:nth-of-type(1) li:nth-of-type(3) {
         grid-column: 3;
+        grid-row: 1;
     }
 
     header ul:nth-of-type(1) li:nth-of-type(4) {
@@ -171,21 +176,70 @@ header button {
 
 header nav:nth-of-type(2) ul {
     position: fixed;
-    /* inset: 0; */
-    background-color: var(--background-header-hover);
     display: flex;
     flex-direction: column;
-    left: 0;
+    background-color: var(--background-header-hover);
+    
 }
-
 
 header nav:nth-of-type(2) {
     translate: -100% 0;
     transition: .4s ease;
+    top:0;
+    left: 0;
+
+}
+
+header nav:nth-of-type(2) ul {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-header-hover);
+    
 }
 
 header nav:nth-of-type(2).is-open {
    translate: 0;
+}
+
+header nav:nth-of-type(2) li {
+    display: flex;
+    /* padding: .5em; */
+    cursor: pointer;
+
+}
+
+header nav:nth-of-type(2) li p {
+    font-family: "abchanel";
+    font-size: 0.9em;
+    line-height: 1.125rem;
+    letter-spacing: 0.00625rem;
+    color: var(--header-items-hover-home);
+    margin-left: 1em;
+
+}
+
+header nav:nth-of-type(2) li:nth-of-type(6) p {
+    font-family: "helvetica";
+}
+
+header nav:nth-of-type(2) li svg {
+    color: var(--header-items-hover-home);
+}
+
+header nav:nth-of-type(2) button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    
+    svg {
+        width: 3em;
+
+    }
+}
+
+header nav:nth-of-type(2) li:nth-of-type(12) {
+    /* margin-top: 2em; */
 }
 
 
