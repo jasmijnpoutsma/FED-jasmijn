@@ -44,7 +44,7 @@
 :root {
     --backgroumd-page: white;
     --background-color-footer: #000000;
-    --color-header-home: white;
+    --color-header-home: rgb(0, 0, 0);
     --background-header-hover-home: white;
     --header-items-hover-home: black;
     --color-producten-home: black;
@@ -55,23 +55,25 @@
     --h3-footer: white;
     --carroussel-niet-in-gebruik: #9b9b9b;
     --menu-color-muiltjes: black;
+    --border-knop: black;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --backgroumd-page: black;
-        --background-color-footer: white;
-        --color-header-home: black;
+        --background-color-footer: rgb(0, 0, 0);
+        --color-header-home: rgb(255, 255, 255);
         --background-header-hover-home: black;
         --header-items-hover-home: white;
         --color-producten-home: white;
         --color-text-kopjes-home: black;
-        --color-footer-svg-home: black;
+        --color-footer-svg-home: rgb(255, 255, 255);
         --footer-nav: #9b9b9b;
         --button-favo: white;
-        --h3-footer: black;
+        --h3-footer: rgb(255, 255, 255);
         --carroussel-niet-in-gebruik: #9b9b9b;
         --menu-color-muiltjes: white;
+        --border-knop: rgb(255, 255, 255);
     }
 }
 
@@ -89,7 +91,7 @@ button {
 /* header */
 
 header button span {
-    color: var(--menu-color-muiltjes);
+    color: var(--background-color-footer);
 }
 
 header:hover {
@@ -103,14 +105,14 @@ header:hover {
     }
 
     button span {
-        color: var(--color-header-home);
+        color: var(--h3-footer);
     }
     
 }
 
 header:hover svg {
     path {
-        fill: var(--color-header-home);
+        fill: var(--h3-footer);
     }
 }
 
@@ -120,7 +122,7 @@ header:hover svg {
 
 h1 {
     font-family: "abchanel";
-    font-size: 25px;
+    font-size: 1.5625em;
     line-height: 124%;
     letter-spacing: .135rem;
 }
@@ -142,7 +144,6 @@ h3 {
 main section:nth-of-type(1) p {
     font-family: "helvetica";
     font-size: 1em;
-    font-weight: 400;
     letter-spacing: .00625rem;
 }
 
@@ -247,7 +248,6 @@ main section:nth-of-type(3) div {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 main section:nth-of-type(3) div button {
@@ -257,7 +257,7 @@ main section:nth-of-type(3) div button {
     border: none;
     background: none;
     color: var(--color-producten-home);
-    border-bottom: #000000 2px solid;
+    border-bottom: var(--border-knop) 2px solid;
     &.not-active {
         color: var(--carroussel-niet-in-gebruik);
         border-bottom: none;

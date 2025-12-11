@@ -1,5 +1,6 @@
 
 
+
 // hamburger menu
 const openHamburgerMenu = document.querySelector("header nav:nth-of-type(1) li:nth-of-type(1) button");
 const sluitHamburgerMenu = document.querySelector("header nav:nth-of-type(2) ul button");

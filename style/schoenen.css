@@ -58,15 +58,15 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --backgroumd-page: black;
-        --background-color-footer: white;
+        --background-color-footer: rgb(0, 0, 0);
         --color-header-home: white;
         --background-header-hover: black;
         --header-items-hover-home: white;
         --color-producten-home: white;
-        --color-footer-svg-home: black;
+        --color-footer-svg-home: rgb(255, 255, 255);
         --footer-nav: #9b9b9b;
         --button-favo: white;
-        --h3-footer: black;
+        --h3-footer: rgb(255, 255, 255);
     }
 }
 
@@ -160,7 +160,7 @@ main section:nth-of-type(1) {
 h1 {
     text-align: center;
     font-family: "abchanel";
-    font-size: 25px;
+    font-size: 1.5625em;
     text-transform: uppercase;
     margin-bottom: 1rem;
     color: var(--color-text-kopjes-home);
@@ -170,7 +170,7 @@ h1 {
 main section:nth-of-type(1) h2 {
     font-size: 1em;
     line-height: 1.125em;
-    letter-spacing: .72px; 
+    letter-spacing: 0.045em; 
     text-align: center;
     text-transform: uppercase;
 }
@@ -180,7 +180,7 @@ main section:nth-of-type(1) p {
     text-align: center;
     font-family: "abchanel";
     font-size: 1em;
-    letter-spacing: .72px;
+    letter-spacing: 0.045em;
     line-height: 1.125em;
     color: var(--color-text-kopjes-home);
 }
@@ -234,9 +234,9 @@ main section:nth-of-type(3) {
 }
 
 main section:nth-of-type(3) h2 {
-    font-size: 25px;
-    line-height: 31px;
-    letter-spacing: 1.5px;
+    font-size: 1.5625em;
+    line-height: 1.9375em;
+    letter-spacing: 0.09375em;
     text-transform: uppercase;
 }
 
@@ -268,7 +268,7 @@ main section:nth-of-type(4) {
 main section:nth-of-type(4) h2 {
     font-size: 25px;
     line-height: 31px;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.09375em;
     text-transform: uppercase;
 }
 
@@ -282,8 +282,8 @@ main section:nth-of-type(4) ul {
 /* producten */
 
 main section h2 {
-    font-size: 25px;
-    line-height: 31px;
+    font-size: 1.5625em;
+    line-height: 1.9375em;
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
@@ -319,7 +319,7 @@ main article {
     grid-template-columns: 1fr max-content;
     grid-template-rows: max-content max-content; 
     margin-bottom: 2.5em;
-    column-gap: 1em;
+    /* column-gap: 1em; */
 }
 
 main article h3 {
@@ -329,13 +329,18 @@ main article h3 {
     line-height: 1.125em;
     letter-spacing: .72px;
     text-transform: uppercase;
+
+    grid-row: 2;
+    grid-column: 1;
 }
 
-main article img {
+main article a {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+main article a img {
     width: 100%;
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-column-end: 3;
 }
 
 main article button {

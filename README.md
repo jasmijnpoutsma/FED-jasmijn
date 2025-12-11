@@ -205,10 +205,8 @@ na'imah
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+- ik heb nog beter grid leren gebruiken bij het maken van mijn footer.
+- ik heb geleerd hoe ik text over afbeeldingen kan plaatsen met het gebruik van grid 
 
 </details>
 
@@ -240,7 +238,25 @@ na'imah
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+jasmijn: 
+- hoe krijg ik extra icoontjes in mijn header zodra mijn scherm breeder wordt?
+- ik heb af en toe een lijn die blijft staan als ik over mijn header heen hover, hoe krijg ik dit weg?
+- hoe kan ik er voor zorgen dat de video's automatisch veranderen als ik mijn scherm groter maak zonder te hoeven reloaden?
+
+na'imah: 
+- Hoe zet ik de sneeuw uit bij light-mode.
+- Welke selector gebruik ik om ruimte te geven tussen de summary.
+- Hoe zet ik de pijltjes naar de andere kant (summary).
+- hoe zet ik een a of tekst over mijn afbeelding?
+- is het beter om footer nav, header nav enz te gebruiken of nav:nth-of-type 
+- wat is de juiste selector voor mijn sticky nav?
+
+daniel: 
+- ijn light & dark mode werkt niet, hoe fix ik dat?
+- hoe kan ik de opmaak van mijn footer verbeteren?
+- hoe voeg ik icoontjes toe in de header?
+- hoe en wat voor beschrijving moet je hebben voor de screenreader
+
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -252,10 +268,8 @@ na'imah
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - ik heb geleerd hoe ik extra dingen in mijn header toe kan voegen bij het vergroten van het scherm
+  - ik heb deels geleerd over het verplaatsen van de icoontjes wat betreft details en summary
 
 </details>
 
@@ -269,19 +283,44 @@ na'imah
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./readme-images/schoenenpagina1.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina2.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina3.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina4.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina5.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina6.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina7.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina8.jpg" width="375px" alt="uitomst opdracht">
+
+  <img src="./readme-images/muiltjespagina1.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina2.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina3.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina4.jpg" width="375px" alt="uitomst opdracht">
+  <img src="./readme-images/schoenenpagina5.jpg" width="375px" alt="uitomst opdracht">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Korte omschrijving met plaatjes:
+  de afgelopen 4 weken heb ik mezelf erg verbaast, ik had niet verwacht dat dit vak zo goed zou verlopen als dat het is gegaan. ik heb heel veel geleerd, ik begon eigenlijk met bijna tot geen kennis en ik denk dat ik goed heb laten zien in mijn eindproject dat ik nu best wel veel weet te gebruiken. sommige dingen waren wel een stuk lastiger dan andere maar ik ben positief over de uitkomst en zoals al vaken gezeg vond ik het nog best leuk!
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  korte opsomming van wat ik heb geleerd: 
+  - ik heb geleerd hoe ik goed een grid op kan zetten en hoe ik verschillende items daar in kan plaatsen om te zorgen voor een mooie stijling.
+
+  - ik heb geleerd hoe ik nog beter gebruik kan maken van flexbox, en heb dit ook toegepast in mijn eind product. ook heb ik geleerd hoe je een van css met flexbox een carroussel kan maken.
+
+  - ik heb beter geleer javascript te gebruiken. vorig jaar hebben we natuurlijk wel lessen gehad over java, maar het was altijd lastig te volgen en te begrijpen. dit jaar vond ik het al iestjes makkelijker gaan. ik snapte na de les in iedergeval wat je moest gebruiken en hoe je de code moet opzetten.
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Korte omschrijving met plaatjes:
+  ondanks dat ik veel heb geleerd blijf ik sommige dingen wel nog erg lastig vinden, denk dat het meeste dan ook met javascript te maken heeft. ik vind het lastig om in te zien wat er in mijn css bijvoorbeeld bij moet komen om de java code te laten werken. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  - ik heb veel moeite gehad met mijn hamburger menu, eerst met het opzetten van de java code en daarna met het stijlen. met het opzetten had ik gebruik gemaakt van het voorbeeldje uit de les. ik had precies de zelfde stappen gebruikt maar toch werkt het niet. dit kwam door dat ik helemaal goed in mijn css had verwerkt. later met wat hulp van matthijs is dit wel gelukt. later toen ik de styling aan het doen was reageerden eigenlijk vrijwel niks op de flex opdrachten die ik de li had gegeven. het is me uiteindelijk niet gelukt, hij is "vies" gestijlt zoals ie nu staat, dit is omdat het me op een of andere manier gewoon niet lukte en ik kan niet vinden waar het probleem zit. 
+
+  - zoals hier boveen al gezegd heb ik het echt wel lastig gehad met java code schrijven. het begin was er elke keer maar ik liep elke keer na de alert al snel vast.
+
+  - de pijltjes bij het carrousel zijn me uiteindelijk niet gelukt. ik heb veel geprbeerd en ook veel uit de voorbeelden gebruikt maar de pijltjes stonder er wel ik krijg ze alleen nop geen enkele manier naar het midden toe. 
 </details>
 
 
