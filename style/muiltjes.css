@@ -94,7 +94,7 @@ header button span {
     color: var(--background-color-footer);
 }
 
-header a svg {
+header svg {
     path {
         fill: var(--background-color-footer);
     }
