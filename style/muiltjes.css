@@ -94,6 +94,12 @@ header button span {
     color: var(--background-color-footer);
 }
 
+header a svg {
+    path {
+        fill: var(--background-color-footer);
+    }
+}
+
 header:hover {
     background-color: var(--background-color-footer);
     padding: .5em;
