@@ -380,6 +380,7 @@ section:nth-of-type(4) h2 {
     margin-bottom: 1em;
 
     font-size: 1.125em;
+    color: var(--color-producten-home);
 }
 
 section:nth-of-type(4) p{ 
@@ -391,6 +392,7 @@ section:nth-of-type(4) p{
     font-family: "helvetica";
     font-size: 1em;
     letter-spacing: .0625rem;
+    color: var(--color-producten-home);
 }
 
 li img {
