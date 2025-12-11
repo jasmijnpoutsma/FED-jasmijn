@@ -220,7 +220,12 @@ na'imah
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  <img src="./readme-images/wcag1.jpg" width="375px" alt="wcag checklist">
+  <img src="./readme-images/wcag2.jpg" width="375px" alt="wcag checklist">
+  <img src="./readme-images/wcag3.jpg" width="375px" alt="wcag checklist">
+  <img src="./readme-images/wcag4.jpg" width="375px" alt="wcag checklist">
+  <img src="./readme-images/wcag5.jpg" width="375px" alt="wcag checklist">
+
 
 </details>
 
