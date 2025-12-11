@@ -425,6 +425,9 @@ nav strong {
     }
 }
 
+footer h2 {
+    display: none;
+}
 /* footer */
 
 /* body */
