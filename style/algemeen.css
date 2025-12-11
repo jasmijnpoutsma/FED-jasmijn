@@ -109,6 +109,10 @@ header ul:nth-last-of-type(1) li:nth-of-type(3) svg {
     width: 6em;
 }
 
+header li {
+    cursor: pointer;
+}
+
 header button {
     border: none;
     background: none;
@@ -146,15 +150,16 @@ header button {
 
     header ul:nth-of-type(1) li:nth-of-type(3) {
         grid-column: 3;
-        grid-row: 1;
     }
 
     header ul:nth-of-type(1) li:nth-of-type(4) {
         grid-column: 5;
+        grid-row: 1;
     }
 
     header ul:nth-of-type(1) li:nth-of-type(5) {
         grid-column: 6;
+        grid-row: 1;
     }
 
     header { 
@@ -164,14 +169,23 @@ header button {
 
 }
 
+header nav:nth-of-type(2) ul {
+    position: fixed;
+    /* inset: 0; */
+    background-color: var(--background-header-hover);
+    display: flex;
+    flex-direction: column;
+    left: 0;
+}
+
 
 header nav:nth-of-type(2) {
     translate: -100% 0;
     transition: .4s ease;
 }
 
-header nav:nth-of-type(2) ul.toonmenu {
-   translate: 0 0;
+header nav:nth-of-type(2).is-open {
+   translate: 0;
 }
 
 
@@ -268,6 +282,10 @@ details li:hover {
     text-decoration-color: var(--footer-nav-svg);
 }
 
+summary {
+    cursor: pointer;
+}
+
 footer section:nth-of-type(1) {
     display: flex;
     justify-content: center;
@@ -285,6 +303,10 @@ footer section:nth-of-type(3) ul {
     margin: 2em;
     padding: 1em;
     
+}
+
+footer section:nth-of-type(3) li {
+    cursor: pointer;
 }
 
 nav strong {
