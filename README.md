@@ -205,8 +205,8 @@ na'imah
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- ik heb nog beter grid leren gebruiken bij het maken van mijn footer.
-- ik heb geleerd hoe ik text over afbeeldingen kan plaatsen met het gebruik van grid 
+ - ik heb nog beter grid leren gebruiken bij het maken van mijn footer.
+ - ik heb geleerd hoe ik text over afbeeldingen kan plaatsen met het gebruik van grid 
 
 </details>
 
@@ -226,6 +226,18 @@ na'imah
   <img src="./readme-images/wcag4.jpg" width="375px" alt="wcag checklist">
   <img src="./readme-images/wcag5.jpg" width="375px" alt="wcag checklist">
 
+  screenreader: 
+  - ik heb alle plaatjes op mijn website een als gegeven zo wordt er een textje voorgelezen als je op dat plaatje staat met de screenreader, dit is op de echte chanel site niet zo. dit vond ik persoonlijk verwarrend en lijkt me niet heel handig werken.
+    <img src="./readme-images/screenreaderalt.jpg" width="375px" alt="screenshot van screenreader">
+
+  - ik heb ook alle favoriete buttons een focus gegeven, dit was voor mijn gevoel niet heel duidelijk bij de echte chanel website. mij leek het handig dit wel te hebben aangezien dit best een belangrijke knop is als het over winkelen gaat. 
+    <img src="./readme-images/screenreaderbutton.jpg" width="375px" alt="screen shot van screen reader">
+
+  - er kan gemakkelijk door alle kop texten gelezen worden, zonder enige complicatie. wel had ik misschien voor de eerste paar kop texten die over de afbeelding heen gaan een lichtere kleur kunnen kiezen.
+    <img src="./readme-images/screenreaderkop.jpg" width="375px" alt="screenshot van screenreader"> 
+
+  - wel had ik voor de focus in mijn header een andere kleur moeten kiezen, je ziet eigenlijk heel slecht welke link is geselecteerd omdat het een donkere achtergrond heeft. ik had deze items beter een witte focus kunnen geven zodat je goed kan zien op welke link je staat. 
+    <img src="./readme-images/screenreaderfocus.jpg" width="375px" alt="screenshot van screenreadeer">
 
 </details>
 
@@ -257,7 +269,7 @@ na'imah:
 - wat is de juiste selector voor mijn sticky nav?
 
 daniel: 
-- ijn light & dark mode werkt niet, hoe fix ik dat?
+- mijn light & dark mode werkt niet, hoe fix ik dat?
 - hoe kan ik de opmaak van mijn footer verbeteren?
 - hoe voeg ik icoontjes toe in de header?
 - hoe en wat voor beschrijving moet je hebben voor de screenreader
@@ -341,8 +353,9 @@ daniel:
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. sanne
+  2. mathijs 
+  3. jules
+  4. https://www.chanel.com/nl/ voor afbeeldingen, videos en alle text
 
 </details>
